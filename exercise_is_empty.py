@@ -1,5 +1,3 @@
-# Ejercicio 9: Verificar si una lista está vacía
-
 def is_empty(lista):
     """
     Determina si una lista está vacía.
@@ -10,4 +8,11 @@ def is_empty(lista):
     Returns:
         True si la lista está vacía, False en caso contrario
     """
-    pass  # Reemplazar con tu implementación
+    # ________________________________________RESOLUCION EJERCICIO 9_______________________________________
+
+    lenght = len(lista)
+
+    if lenght == 0:
+        return True
+    else:
+        return False

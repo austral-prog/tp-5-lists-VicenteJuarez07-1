@@ -1,5 +1,3 @@
-# Ejercicio 3: Agregar elementos al principio y final
-
 def add_elements(lista):
     """
     Agrega 'Pink' al principio y 'Yellow' al final de la lista.
@@ -10,4 +8,9 @@ def add_elements(lista):
     Returns:
         La lista modificada con los elementos agregados
     """
-    pass  # Reemplazar con tu implementación
+
+    # ________________________________________RESOLUCION EJERCICIO 3_______________________________________
+
+    lista.append("Yellow")
+    lista.insert(0, "Pink")
+    return lista

@@ -1,5 +1,3 @@
-# Ejercicio 12: Manipular lista de listas
-
 def list_of_lists(lista_de_listas):
     """
     Modifica una lista de 3 listas internas:
@@ -13,4 +11,12 @@ def list_of_lists(lista_de_listas):
     Returns:
         La lista de listas modificada según las reglas
     """
-    pass  # Reemplazar con tu implementación
+
+    # ________________________________________RESOLUCION EJERCICIO 12_______________________________________
+
+    lista1 = lista_de_listas[0][:2]
+    lista2 = lista_de_listas[1][1:4]
+    lista3 = lista_de_listas[2][-2:]
+
+    lista_de_listas = [lista1, lista2, lista3]
+    return lista_de_listas
